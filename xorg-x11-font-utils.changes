@@ -1,0 +1,14 @@
+* Wed Jun 23 2010 Li Peng <peng.li@intel.com> - 7.5
+- Add %doc for man pages
+
+* Fri Mar 26 2010 Anas Nashif <anas.nashif@intel.com> - 7.5
+- Remove Epoch
+
+* Fri Feb 26 2010 Li Peng <peng.li@intel.com> 7.5
+- change default fontrootdir to ${datadir}/X11/fonts
+
+* Tue Feb 09 2010 Li Peng <peng.li@intel.com> 7.5
+- xorg-x11-font-utils 7.5
+
+* Sat Dec 20 2008 Arjan van de Ven <arjan@linux.intel.com> 7.2
+- Remove stale requires on xorg-x11-proto-devel

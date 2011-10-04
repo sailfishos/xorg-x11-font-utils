@@ -1,0 +1,14 @@
+--- font-util-1.1.1/configure.ac	2010-02-26 10:47:21.101937567 +0800
++++ font-util-1.1.1/configure.ac.new	2010-02-26 10:47:38.886036441 +0800
+@@ -38,9 +38,9 @@
+ AC_PROG_INSTALL
+ 
+ AC_MSG_CHECKING([for root directory for font files])
+-fontrootdir='${datadir}/fonts/X11'
++fontrootdir='${datadir}/X11/fonts'
+ AC_ARG_WITH(fontrootdir, [AC_HELP_STRING([--with-fontrootdir=DIR],
+-	[Path to parent of font subdirectories [DATADIR/fonts/X11]])],
++	[Path to parent of font subdirectories [DATADIR/X11/fonts]])],
+ 	[fontrootdir="${withval}"])
+ AC_SUBST(fontrootdir)
+ AC_MSG_RESULT([${fontrootdir}])
