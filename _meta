@@ -1,8 +1,0 @@
-<package project="Mer:Trunk:Base" name="xorg-x11-font-utils">
-  <title>X.Org X11 font utilities</title>
-  <description>X.Org X11 font utilities required for font installation, conversion,
-and generation.
-
-</description>
-  <url>http://www.x.org</url>
-</package>
